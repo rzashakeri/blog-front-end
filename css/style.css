@@ -213,3 +213,13 @@ p {
     font-size: 1.2rem;
     font-weight: 700;
 }
+
+/* daily article */
+.article {
+    background-color: #F2F4F7;
+}
+.article__view-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
