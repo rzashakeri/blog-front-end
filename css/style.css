@@ -7,3 +7,21 @@
     box-sizing: border-box;
     list-style: none;
 }
+
+/* general */
+html {
+    font-size: 62.5%;
+}
+
+/* mobile font size */
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
