@@ -68,8 +68,6 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 5rem;
-
 }
 
 .navbar__logo {
@@ -145,6 +143,11 @@ p {
     background-color: #F2F4F7;
     padding: 1rem 3rem;
     border-radius: 100px;
+}
+
+/* block */
+.block {
+    padding: 2rem 5rem;
 }
 
 /* container */
