@@ -222,6 +222,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2rem 2rem 0 2rem;
 }
 
 .article__item {
@@ -231,12 +232,18 @@ p {
     border-radius: 20px;
     justify-content: center;
     align-items: center;
-    margin: 0 2rem;
+    margin: 2rem 2rem;
 }
 
 .article__body {
     padding:3rem;
-    
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.3rem;
+}
+
+.article__date {
+    font-size: 1.3rem;
 }
 
 .article__image-mobile,
@@ -247,4 +254,5 @@ p {
     width: 100%;
     height: 270px;
     object-fit: cover;
+    border-radius: 0 0 1rem 1rem;
 }
