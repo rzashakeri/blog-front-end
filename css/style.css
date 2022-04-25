@@ -95,6 +95,12 @@ p {
     display: none;
 }
 
+.navbar__list {
+    display: flex;
+    column-gap: 12rem;
+    align-items: center;
+}
+
 /* navbar : tablet version */
 @media screen and (min-width:768px) {
 
@@ -112,4 +118,21 @@ p {
         color: #000;
         font-size: 1.6rem;
     }
+}
+
+/* navbar : desktop version */
+@media screen and (min-width:1024px) {
+    .navbar__cta {
+        display: flex;
+    }
+}
+
+/* buttons */
+.btn {
+    background-color: #1D2939;
+    color: #fff;
+    text-decoration: none;
+    padding: 1.2rem 1.4rem;
+    border-radius: 8px;
+    font-size: 1.4rem;
 }
