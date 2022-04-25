@@ -154,7 +154,7 @@ p {
 
 /* block */
 .block {
-    padding: 2rem 5rem;
+    padding: 2rem 3rem;
 }
 
 /* container */
@@ -221,7 +221,7 @@ p {
     font-weight: 700;
 }
 
-/* daily article */
+/* article */
 .article {
     background-color: #F2F4F7;
 }
@@ -262,4 +262,39 @@ p {
     height: 270px;
     object-fit: cover;
     border-radius: 0 0 1rem 1rem;
+}
+
+.article__description {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .article__item {
+        flex-direction: row;
+        padding: 2rem;
+    }
+
+    .article__description {
+        display: block;
+    }
+
+    .article__body {
+        width: 200%;
+    }
+
+    .article__image-mobile,
+    .article__image-desktop,
+    .article__image-tablet,
+    .article__image-default,
+    .article__image {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+}
+
+/* design */
+.design__view-all {
+    display: flex;
+    justify-content: space-between;
 }
