@@ -292,9 +292,3 @@ p {
         border-radius: 1rem;
     }
 }
-
-/* design */
-.design__view-all {
-    display: flex;
-    justify-content: space-between;
-}
