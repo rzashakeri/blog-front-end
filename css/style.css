@@ -55,3 +55,41 @@ p {
         font-size: 1.8rem;
     }
 }
+
+/* header */
+/* mobile design */
+.header {
+    background-color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1rem;
+}
+
+.bar-one,
+.bar-two {
+    width: 40px;
+    height: 4px;
+    background-color: #1D2939;
+    margin-top: 9px;
+}
+
+.navbar__logo {
+    align-self: end;
+}
+
+.bar-three {
+    width: 24px;
+    height: 4px;
+    background-color: #1D2939;
+    margin-top: 9px;
+    margin-left: 16px;
+}
+
+.navbar__links,
+.navbar__cta {
+    display: none;
+}
