@@ -57,7 +57,7 @@ p {
 }
 
 /* header */
-/* mobile design */
+/* navbar : mobile version */
 .header {
     background-color: #fff;
 }
@@ -70,7 +70,8 @@ p {
 }
 
 .navbar__logo {
-    align-self: end;
+    align-self: center;
+    display: flex;
 }
 
 .bar-one,
@@ -92,4 +93,23 @@ p {
 .navbar__links,
 .navbar__cta {
     display: none;
+}
+
+/* navbar : tablet version */
+@media screen and (min-width:768px) {
+
+    .navbar__toggler {
+        display: none;
+    }
+
+    .navbar__links {
+        display: flex;
+        column-gap: 4rem;
+    }
+
+    .navbar__link a {
+        text-decoration: none;
+        color: #000;
+        font-size: 1.6rem;
+    }
 }
