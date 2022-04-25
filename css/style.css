@@ -223,3 +223,28 @@ p {
     justify-content: space-between;
     align-items: center;
 }
+
+.article__item {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.article__body {
+    padding:3rem;
+    
+}
+
+.article__image-mobile,
+.article__image-desktop,
+.article__image-tablet,
+.article__image-default,
+.article__image {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
