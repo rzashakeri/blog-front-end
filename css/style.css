@@ -136,3 +136,32 @@ p {
     border-radius: 8px;
     font-size: 1.4rem;
 }
+
+/* intro */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 2rem;
+    padding: 2rem;
+}
+
+.intro__title {
+    font-weight: 700;
+    background: linear-gradient(97.1deg, #C41740 4.8%, #EA9C28 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height:120%;
+}
+
+.intro__description {
+    text-justify: justify;
+    text-align: center;
+}
+
+.intro__badge {
+    font-size: 1.2rem;
+}
