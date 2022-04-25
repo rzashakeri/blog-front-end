@@ -136,6 +136,7 @@ p {
     padding: 1.2rem 1.4rem;
     border-radius: 8px;
     font-size: 1.4rem;
+    border: none;
 }
 
 .btn--primary {
@@ -332,4 +333,20 @@ p {
     padding: 1.2rem;
     border-radius: 8px;
 
+}
+
+/* separator */
+.separator {
+    border: 0.5px solid #ccc;
+    background-color: #ccc;
+    opacity: 0.5;
+    margin: 1rem 0;
+}
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
 }
