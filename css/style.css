@@ -138,6 +138,13 @@ p {
     font-size: 1.4rem;
 }
 
+.btn--primary {
+    background-color: #fff;
+    color: #1D2939;
+    font-weight: 700;
+    border: 1px solid #E4E7EC;
+}
+
 /* badge */
 .badge {
     background-color: #F2F4F7;
