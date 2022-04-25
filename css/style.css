@@ -66,7 +66,11 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem 1rem;
+    margin: 2rem 2.5rem;
+}
+
+.navbar__logo {
+    align-self: end;
 }
 
 .bar-one,
@@ -75,10 +79,6 @@ p {
     height: 4px;
     background-color: #1D2939;
     margin-top: 9px;
-}
-
-.navbar__logo {
-    align-self: end;
 }
 
 .bar-three {
