@@ -394,11 +394,22 @@ p {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 2rem 1rem; 
+    padding: 4rem 1rem; 
     row-gap: 1rem;
 }
 
 .article__detail {
     display: flex;
     font-size: 1.3rem;
+}
+
+.article__image,
+.article__image-mobile,
+.article__image-default {
+    width: 100%;
+}
+
+.article__description {
+    padding: 3rem;
+    line-height: 2;
 }
