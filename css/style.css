@@ -369,6 +369,7 @@ p {
     opacity: 0.5;
     margin: 1rem 0;
 }
+
 /* footer */
 .footer {
     display: flex;
@@ -376,4 +377,28 @@ p {
     justify-content: center;
     align-items: center;
     margin: 1rem 0;
+}
+
+/* article */
+.article__title {
+    font-weight: 700;
+    background: linear-gradient(97.1deg, #C41740 4.8%, #EA9C28 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height:120%;
+    text-align: center;
+}
+
+.article__heading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 1rem; 
+    row-gap: 1rem;
+}
+
+.article__detail {
+    display: flex;
+    font-size: 1.3rem;
 }
