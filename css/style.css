@@ -146,6 +146,7 @@ p {
     border: 1px solid #E4E7EC;
 }
 
+
 /* badge */
 .badge {
     background-color: #F2F4F7;
@@ -225,7 +226,7 @@ p {
 /* article */
 .article {
     background-color: #F2F4F7;
-    padding-bottom: 2rem;
+    padding: 1rem 0;
 }
 .article__view-all {
     display: flex;
@@ -268,6 +269,13 @@ p {
 
 .article__description {
     display: none;
+}
+
+.more-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
 }
 
 @media screen and (min-width: 768px) {
