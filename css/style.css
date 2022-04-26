@@ -380,6 +380,13 @@ p {
 }
 
 /* article */
+
+.article__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .article__title {
     font-weight: 700;
     background: linear-gradient(97.1deg, #C41740 4.8%, #EA9C28 100%);
@@ -406,6 +413,20 @@ p {
 .article__image,
 .article__image-mobile,
 .article__image-default {
+    width: 100%;
+}
+
+.article__thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.article__thumbnail,
+.article__thumbnail-mobile,
+.article__thumbnail-default {
     width: 100%;
 }
 
