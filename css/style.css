@@ -320,13 +320,13 @@ p {
     display: flex;
     flex-direction: column;
     row-gap:1rem;
-    width: 50%;
+    width: 100%;
 
 }
 
 .newsletter__description {
     text-align: center;
-    width:70%;
+    margin: 2rem 0;
 }
 
 .newsletter__input {
@@ -340,6 +340,8 @@ p {
     .newsletter__form {
         flex-direction: row;
         justify-content: center;
+        width: 50%;
+
     }
 
     .newsletter__button {
