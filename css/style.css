@@ -111,7 +111,7 @@ p {
   font-size: 1.6rem;
   border-bottom: 1px solid #000;
   display: block;
-  padding: 1rem;
+  padding: 1rem 0;
   
   
 }
@@ -119,6 +119,7 @@ p {
 .navbar__cta {
   margin-top: 1rem;
   display: block;
+  text-align: center;
 }
 
 
@@ -161,7 +162,6 @@ p {
 
 .navbar.nav__expanded .navbar__list {
   display: flex;
-  flex-direction: column;
   max-height: 100vh;
   opacity: 1;
 }
@@ -175,7 +175,11 @@ p {
 }
 
 .navbar.nav__expanded .bar-two {
-  transform: translateX(500px);
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: all 0.5s ease-in-out;
+
+
 }
 
 .navbar.nav__expanded .bar-three {
