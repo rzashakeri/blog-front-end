@@ -127,6 +127,7 @@ p {
 
   .navbar {
     flex-wrap: nowrap;
+    
   }
   .navbar__toggler {
     display: none;
@@ -165,10 +166,28 @@ p {
   opacity: 1;
 }
 
+.bar {
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar.nav__expanded .bar-one {
+  transform: rotate(45deg) translateY(2px) translateX(14px);
+}
+
+.navbar.nav__expanded .bar-two {
+  transform: translateX(500px);
+}
+
+.navbar.nav__expanded .bar-three {
+  width: 40px;
+  height: 4px;
+  margin-left: 0;
+  transform: rotate(-45deg) translateY(-4px) translateX(17px);
+}
+
 /* navbar : desktop version */
 @media screen and (min-width: 1024px) {
-  .navbar__cta {
-  }
+
 }
 
 /* buttons */
