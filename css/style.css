@@ -545,6 +545,33 @@ p {
   row-gap: 1rem;
 }
 
+.article__comment {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 1rem;
+  margin: 1rem 0;
+}
+
+.article__comment-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 1rem;
+
+}
+
+.article__comment-text {
+  border-radius: 8px;
+  width: 100%;
+  height:200px;
+  resize: none;
+  padding: 1rem;
+  font-family: "Vazir";
+  border-color: #ccc;
+}
+
 @media screen and (min-width: 768px) {
   .article__image,
   .article__image-mobile,
@@ -554,6 +581,11 @@ p {
 }
 
 @media screen and (min-width: 1024px) {
+
+  .article__comment {
+    width: 52%;
+  }
+
   .article__description {
     width: 57%;
   }
