@@ -595,7 +595,18 @@ p {
   border: none;
   border-radius: 8px;
   background-color: #fff;
+}
 
+.article__comment-reply::before {
+  content: "";
+  display: block;
+  height: 3px;
+  position: absolute;
+  top: 200px;
+  width: 100px;
+  background-color: #ccc;
+  z-index:-1;
+  transform: rotate(90deg);
 }
 
 
@@ -604,7 +615,7 @@ p {
   display: flex;
   column-gap: 3rem;
   align-items: flex-start;
-  width: 90%;
+  width: 100%;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
     rgb(209, 213, 219) 0px 0px 0px 1px inset;
   padding: 2rem 2rem;
@@ -626,6 +637,7 @@ p {
   border-radius: 8px;
   transition: all 0.5s ease-in-out;
   flex-direction: column;
+  position: relative;
 }
 
 .article__comment-main:hover,
