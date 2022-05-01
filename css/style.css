@@ -102,7 +102,6 @@ p {
   max-height: 0;
   overflow: hidden;
   transition: all 0.4s ease-in;
-
 }
 
 .navbar__link a {
@@ -112,8 +111,6 @@ p {
   border-bottom: 1px solid #000;
   display: block;
   padding: 1rem 0;
-  
-  
 }
 
 .navbar__cta {
@@ -121,13 +118,10 @@ p {
   text-align: center;
 }
 
-
 /* navbar : tablet version */
 @media screen and (min-width: 768px) {
-
   .navbar {
     flex-wrap: nowrap;
-    
   }
   .navbar__toggler {
     display: none;
@@ -139,7 +133,6 @@ p {
     max-height: 100%;
     opacity: 1;
     justify-content: flex-end;
-
   }
 
   .navbar__links {
@@ -147,7 +140,6 @@ p {
     column-gap: 4rem;
     height: auto;
     align-items: center;
-    
   }
 
   .navbar__link a {
@@ -177,8 +169,6 @@ p {
   opacity: 0;
   transform: translateX(-40px);
   transition: all 0.5s ease-in-out;
-
-
 }
 
 .navbar.nav__expanded .bar-three {
@@ -190,7 +180,6 @@ p {
 
 /* navbar : desktop version */
 @media screen and (min-width: 1024px) {
-
 }
 
 /* buttons */
@@ -225,7 +214,7 @@ p {
   align-self: flex-end;
   width: 40px;
   height: 30px;
-  padding:0.5rem;
+  padding: 0.5rem;
   border-radius: 4px;
   background-color: rgb(229, 167, 32);
 }
@@ -376,11 +365,13 @@ p {
   .articles__item {
     flex-direction: row;
     padding: 2rem;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px -3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   }
 
   .articles__item:hover {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     transition: all 0.3s ease-in;
   }
 
@@ -392,7 +383,6 @@ p {
     width: 200%;
     align-items: flex-start;
   }
-  
 
   .articles__image-mobile,
   .articles__image-desktop,
@@ -403,7 +393,6 @@ p {
     object-fit: cover;
     border-radius: 1rem;
   }
-
 }
 
 /* newsletter */
@@ -571,6 +560,7 @@ p {
   align-items: flex-start;
   row-gap: 1rem;
   margin: 6rem 0;
+
 }
 
 .article__comment-form {
@@ -578,13 +568,12 @@ p {
   flex-direction: column;
   width: 100%;
   row-gap: 1rem;
-
 }
 
 .article__comment-text {
   border-radius: 8px;
   width: 100%;
-  height:100px;
+  height: 100px;
   resize: none;
   padding: 1rem;
   font-family: "Vazir";
@@ -596,20 +585,51 @@ p {
   width: 80px;
   height: 80px;
 }
+.article__comment-main {
+  display: flex;
+  column-gap: 3rem;
+  align-items: flex-start;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  padding: 2rem 2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+
+}
+
+
+
+.article__comment-reply {
+  display: flex;
+  column-gap: 3rem;
+  align-items: flex-start;
+  width: 90%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  padding: 2rem 2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+
+}
+
+
 
 .article__comment-box {
   display: flex;
   width: 100%;
+  row-gap: 2rem;
   column-gap: 3rem;
   margin: 1rem 0;
-  padding: 2rem 2rem;
   border: none;
-  border-radius:8px;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  border-radius: 8px;
   transition: all 0.5s ease-in-out;
+  flex-direction: column;
 }
 
-.article__comment-box:hover{
+.article__comment-main:hover,
+.article__comment-reply:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
   transition: all 0.5s ease-in-out;
 }
@@ -618,7 +638,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 100%;
-  row-gap:1.7rem;
+  row-gap: 1.7rem;
   justify-content: center;
   align-items: baseline;
 }
@@ -629,7 +649,7 @@ p {
 }
 
 .article__comment-user {
-  font-size:1.5rem;
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -638,10 +658,14 @@ p {
   .article__image-default {
     border-radius: 10px;
   }
+
+  .article__comment-reply {
+    width:90%;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
-
   .article__comment {
     width: 52%;
   }
@@ -651,7 +675,7 @@ p {
   }
 
   .article__author {
-  width: 52%;
+    width: 52%;
   }
 
   .article__thumbnail,
@@ -665,16 +689,16 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
   }
 
   .article__image-mobile,
   .article__image-default {
-    Width :70%;
+    width: 70%;
     object-fit: cover;
   }
 
   .article__image img {
-      border-radius: 10px;
+    border-radius: 10px;
   }
+
 }
