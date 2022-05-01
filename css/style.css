@@ -216,6 +216,20 @@ p {
   color: #fff;
 }
 
+.btn--warning {
+  background-color: rgb(251 191 36);
+  color: #fff;
+}
+
+.reply-btn {
+  align-self: flex-end;
+  width: 40px;
+  height: 30px;
+  padding:0.5rem;
+  border-radius: 4px;
+  background-color: rgb(229, 167, 32);
+}
+
 .more-btn {
   display: flex;
   justify-content: center;
@@ -580,6 +594,7 @@ p {
 .article__comment-avatar {
   border-radius: 50%;
   width: 80px;
+  height: 80px;
 }
 
 .article__comment-box {
@@ -588,8 +603,15 @@ p {
   column-gap: 3rem;
   margin: 1rem 0;
   padding: 2rem 2rem;
-  border: 1px solid #ccc;
+  border: none;
   border-radius:8px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  transition: all 0.5s ease-in-out;
+}
+
+.article__comment-box:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  transition: all 0.5s ease-in-out;
 }
 
 .article__comment-body {
@@ -598,6 +620,7 @@ p {
   width: 100%;
   row-gap:1.7rem;
   justify-content: center;
+  align-items: baseline;
 }
 .article__comment-heading {
   display: flex;
