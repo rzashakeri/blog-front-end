@@ -564,6 +564,16 @@ p {
   justify-content: center;
   text-align: left;
   row-gap: 1rem;
+  width: 83%;
+}
+
+.article__author-about {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .article__comment {
