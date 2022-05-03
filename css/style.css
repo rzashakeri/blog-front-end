@@ -729,6 +729,7 @@ p {
   background-color: #F2F4F7;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 3rem;
 }
 
 .article__recommendation-heading {
@@ -747,9 +748,15 @@ p {
 }
 
 .article__recommendation-item {
-  box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   align-items: flex-start;
   width: 59%;
+  transition: all 0.5s ease-in-out;
+}
+
+.article__recommendation-item:hover {
+  box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
+  transition: all 0.5s ease-in-out;
 }
 
 .article__recommendation-item.articles__item .articles__body {
