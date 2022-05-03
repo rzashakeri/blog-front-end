@@ -532,10 +532,11 @@ p {
 
 .article__author {
   width: 100%;
-  display:flex;
+  display: flex;
   flex-direction: column;
   margin: 1rem 2rem;
   padding: 1rem;
+  align-items: flex-start;
 }
 
 .article__author-heading {
@@ -572,7 +573,6 @@ p {
   align-items: flex-start;
   row-gap: 1rem;
   margin: 6rem 0;
-
 }
 
 .article__comment-form {
@@ -617,11 +617,9 @@ p {
   top: 200px;
   width: 100px;
   background-color: #ccc;
-  z-index:-1;
+  z-index: -1;
   transform: rotate(90deg);
 }
-
-
 
 .article__comment-reply {
   display: flex;
@@ -634,10 +632,7 @@ p {
   border: none;
   border-radius: 8px;
   background-color: #fff;
-
 }
-
-
 
 .article__comment-box {
   display: flex;
@@ -684,9 +679,8 @@ p {
   }
 
   .article__comment-reply {
-    width:90%;
+    width: 90%;
   }
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -724,5 +718,66 @@ p {
   .article__image img {
     border-radius: 10px;
   }
+}
 
+/* article recommendation */
+
+.article__recommendation {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #F2F4F7;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article__recommendation-heading {
+  margin: 4rem 0 1rem 0;
+}
+
+.article__recommendation-heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+}
+.article__recommendation-item.articles__item {
+  width: 92%;
+  margin-top: 1rem;
+}
+
+.article__recommendation-item {
+  box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
+  align-items: flex-start;
+  width: 59%;
+}
+
+.article__recommendation-item.articles__item .articles__body {
+  padding: 1rem;
+}
+
+.article__recommendation .articles__image img {
+  width: 100%;
+  height: 275px;
+}
+
+@media screen and (min-width: 768px) {
+  .article__recommendation .articles__image {
+    height: 200px;
+  }
+
+  .article__recommendation .articles__image img {
+    height: 200px;
+  }
+
+}
+
+@media screen and (min-width:1024px) {
+  .article__recommendation-item.articles__item {
+    width: 53%;
+  }
+
+  .article__recommendation-heading {
+    width: 53%;
+  }
 }
