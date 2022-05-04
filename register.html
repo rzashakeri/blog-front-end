@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/font.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>home Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar container block">
+        <a class="navbar__logo" href="#">
+          <img src="/assets/images/personally-logo.svg" alt="logo" />
+        </a>
+        <div class="navbar__toggler">
+          <div class="bar bar-one"></div>
+          <div class="bar bar-two"></div>
+          <div class="bar bar-three"></div>
+        </div>
+        <div class="navbar__list">
+          <ul class="navbar__links">
+            <li class="navbar__link"><a href="#">Daily Digest</a></li>
+            <li class="navbar__link"><a href="#">Design Tools</a></li>
+            <li class="navbar__link"><a href="#">Tutorials</a></li>
+            <a class="navbar__cta btn" href="#">Subscribe</a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+        <div class="account">
+            <div class="register">
+                <form class="register__form" action="">
+                    <h2 class="register__heading">Register</h2>
+                    <input placeholder="name" class="register__form-item register__name" type="text">
+                    <input placeholder="family" class="register__form-item register__family" type="text">
+                    <input placeholder="email" class="register__form-item register__email" type="text">
+                    <input placeholder="password" class="register__form-item register__password" type="text">
+                    <input placeholder="confirm password" class="register__form-item register__confirm-password" type="text">
+                    <p class="forgot-password">Forgot Password ? <a  href="#">Click Here</a></p> 
+                    <button type="submit" class="register__btn btn btn--success">register</button>
+                </form>
+            </div>
+        </div>
+      <section class="newsletter">
+        <h1 class="newsletter__title">Personally Newsletter</h1>
+        <p class="newsletter__description">A bi-weekly newsletter of design inspiration,&nbsp;
+           resources and anything related to career development.</p>
+        <form class="newsletter__form" action="">
+          <input placeholder="Email Address" class="newsletter__input" type="text">
+          <input class="newsletter__button btn" type="submit">
+        </form>
+      </section>
+      <div class="separator"/></div>
+    </main>
+    <footer class="footer">
+      <p>Copyright 2022 - Reza Shakeri</p>
+    </footer>
+  </body>
+  <script src="/js/main.js"></script>
+</html>
