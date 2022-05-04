@@ -219,6 +219,11 @@ p {
   background-color: rgb(229, 167, 32);
 }
 
+.reply-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .more-btn {
   display: flex;
   justify-content: center;
@@ -577,6 +582,8 @@ p {
   -webkit-box-orient: vertical;
 }
 
+/* article comment */
+
 .article__comment {
   width: 90%;
   display: flex;
@@ -773,7 +780,6 @@ p {
 .article__recommendation-item.articles__item .articles__body {
   padding: 1rem;
   align-self: center ;
-
 }
 
 .article__recommendation .articles__image img {
