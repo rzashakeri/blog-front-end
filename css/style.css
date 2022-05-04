@@ -772,6 +772,8 @@ p {
 
 .article__recommendation-item.articles__item .articles__body {
   padding: 1rem;
+  align-self: center ;
+
 }
 
 .article__recommendation .articles__image img {
