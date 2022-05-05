@@ -808,7 +808,7 @@ p {
   }
 }
 
-/* register and login */
+/* register */
 
 .account {
   display:flex;
@@ -818,7 +818,7 @@ p {
 }
 
 .register {
-  padding:3rem;
+  padding:2rem;
   border-radius: 8px;
   margin: 4rem;;
   display: flex;
@@ -826,6 +826,8 @@ p {
   width: 310px;
   flex-direction: column;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  transition: all 0.5s ease-in-out;
+  border-top: 4px solid rgb(9, 255, 0);
 }
 
 .register__heading {
