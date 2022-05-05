@@ -808,7 +808,7 @@ p {
   }
 }
 
-/* register */
+/* register and login*/
 
 .account {
   display:flex;
@@ -817,7 +817,8 @@ p {
   flex-direction: column;
 }
 
-.register {
+.register,
+.login {
   padding:2rem;
   border-radius: 8px;
   margin: 4rem;;
@@ -830,11 +831,13 @@ p {
   border-top: 4px solid rgb(9, 255, 0);
 }
 
-.register__heading {
+.register__heading,
+.login__heading {
   margin-bottom: 1rem;
 }
 
-.register__form {
+.register__form,
+.login__form {
   display: flex;
   flex-direction: column;
   row-gap:1rem;
@@ -845,7 +848,12 @@ p {
   margin-bottom: 1rem;
 }
 
-.register__form-item {
+.login__form :nth-child(3) {
+  margin-bottom: 1rem;
+}
+
+.register__form-item,
+.login__form-item {
   padding: 1rem 1.5rem;
   font-family: "Vazir";
   border: 1px solid #ccc;
@@ -864,5 +872,3 @@ p {
   color:rgb(0, 183, 158);
   margin-left: 0.2rem;
 }
-
-/* login */
