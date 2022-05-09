@@ -8,6 +8,6 @@
  
 I implemented the back end part of this project using Django to have this complete blog project (front end and back end) together, which you can access through the following link: 👇
 
- ## [✅ Full Project ( Back End and Front End )]([https](https://github.com/rzashakeri/blog)://link)
+ ## [✅ Full Project ( Back End and Front End )](https://github.com/rzashakeri/blog)
 
 ### If you like, you can definitely help me in developing this project
