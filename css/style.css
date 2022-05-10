@@ -914,6 +914,7 @@ p {
   background: #fff;
   border: 1px solid rgb(190, 190, 190);
   padding: 1rem;
+  border-radius: 10px;
 }
 
 .user-profile__option a {
@@ -926,8 +927,11 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 3rem 0;
   row-gap: 2rem;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 10px;
 
 }
 
@@ -949,7 +953,7 @@ p {
 }
 
 .user-profile__item-input {
-  width: 75%;
+  width: 70%;
   padding: 1.5rem;
   border: none;
   background-color: rgb(241 241 241);
@@ -970,15 +974,28 @@ p {
   width: 100%;
 }
 
+.user-profile__textarea {
+  resize: none;
+}
+
 @media screen and (min-width: 768px) {
   .user-profile__heading {
     display: flex;
     flex-direction: column;
   }
 
+  .user-profile__textarea {
+    width: 92%;
+  }
+
   .user-profile__body {
     flex-direction: row;
     column-gap: 2rem;
+  }
+
+  .user-profile__about {
+    width: 97%;
+    justify-content: flex-start;
   }
 }
 
@@ -989,9 +1006,23 @@ p {
   .user-profile__options {
     width: 40%;
     order:0;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .user-profile__main {
     width: 170%;
+  }
+
+}
+
+@media screen and (min-width: 1279px) {
+  .user-profile__textarea {
+    width: 93%;
+  }
+}
+
+@media screen and (min-width:1534px){
+  .user-profile__about,
+  .user-profile__textarea {
+    width: 95%;
   }
 }
