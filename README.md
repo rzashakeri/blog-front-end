@@ -1,7 +1,5 @@
 ![imagr](/assets/images/COVER.svg)
 
-# Figma Design Link 
-
 ## [👉 Figma Design Link ](https://www.figma.com/file/5G9vx60Zjm96a0mSUwOjMv/Personally---A-minimal-blog-template-design-(Community)?node-id=0%3A1)
 
  This blog is based on this figma design and many changes have been added to this blog, such as the comments section, the author, etc.
